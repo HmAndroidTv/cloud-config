@@ -1,6 +1,6 @@
-# Do not push unencrypted source configs or lists
-*.json
-*.txt
+# Do not push unencrypted master VOD or live source files
+v1.json
+live/live.txt
 *.key
 *.bak
 *.orig
