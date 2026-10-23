@@ -1,0 +1,7 @@
+# Do not push unencrypted source configs or lists
+*.json
+*.txt
+*.key
+*.bak
+*.orig
+.DS_Store
