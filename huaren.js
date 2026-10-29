@@ -1,6 +1,6 @@
 /**
  * 华人直播源客户端直连解析脚本 (QuickJS ES Module)
- * 托管于 GitHub: https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/huaren.js
+ * 托管于 GitHub: https://raw.githubusercontent.com/amazonjdshop/tv/main/huaren.js
  * 
  * 作用：在电视盒本地动态拉取华人网鉴权 Token 并直接连接华人 CDN，实现零 Worker 消耗和无限续期。
  */
