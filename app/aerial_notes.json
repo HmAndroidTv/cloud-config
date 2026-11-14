@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "v": "2.00",
+      "zh": [
+        "更名为「HMTV桌面」，内置统一签名全面支持各端一键覆盖安装",
+        "优化文件夹退出退场动画与焦点防抖，提升退出流畅度"
+      ],
+      "en": [
+        "Renamed to 'HMTV Launcher', unified signing with seamless overwrite install support",
+        "Smoother folder exit animation and focus debounce"
+      ]
+    },
+    {
       "v": "1.99",
       "zh": [
         "优化系统级桌面升级机制，支持直接覆盖更新",
