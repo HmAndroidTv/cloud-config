@@ -1,0 +1,17 @@
+{
+  "releases": [
+    {
+      "v": "1.96",
+      "zh": [
+        "内置专享硬件设备白名单鉴权保护",
+        "支持保存与恢复桌面布局，新安装应用自动分类至「未归类」文件夹",
+        "优化 tvOS 风格 Wi-Fi 弹窗体验，支持大时钟与 5 天天气预报卡片"
+      ],
+      "en": [
+        "Built-in device whitelist protection",
+        "Support desktop layout backup and restore with uncategorized folder",
+        "Optimized tvOS Wi-Fi popup, large clock and 5-day weather widgets"
+      ]
+    }
+  ]
+}
