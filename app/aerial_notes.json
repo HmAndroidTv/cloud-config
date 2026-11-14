@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "v": "2.01",
+      "zh": [
+        "默认壁纸升级为「跟随 App」灵动光晕，根据选中图标自动流动变色",
+        "优化全局文案与品牌标识为 HMTV"
+      ],
+      "en": [
+        "Default wallpaper updated to Follow App ambient glow",
+        "Branding updated to HMTV"
+      ]
+    },
+    {
       "v": "2.00",
       "zh": [
         "更名为「HMTV桌面」，内置统一签名全面支持各端一键覆盖安装",
