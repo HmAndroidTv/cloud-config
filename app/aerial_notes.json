@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "v": "1.98",
+      "zh": [
+        "控制中心新增「应用商城」，支持浏览与一键下载云端热门应用",
+        "首页顶部新增滚动公告走马灯，实时获取云端公告与客服微信支持",
+        "个性化设置中支持自主开启或关闭首页滚动公告"
+      ],
+      "en": [
+        "Added App Store to Control Center with one-click app downloads",
+        "Added top scrolling announcement marquee for cloud notices and WeChat support",
+        "Personalization settings option to toggle scrolling marquee on or off"
+      ]
+    },
+    {
       "v": "1.97",
       "zh": [
         "应用更名为「HMTV桌面启动器」，守护服务更名为「HMTV 桌面守护」",

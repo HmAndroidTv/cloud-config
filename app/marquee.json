@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "interval_minutes": 30,
+  "messages": {
+    "zh": "欢迎使用 HMTV 电视盒！如有任何问题，欢迎添加微信：nytvbox2",
+    "en": "Welcome to HMTV Box! For any questions or support, please add WeChat: nytvbox2"
+  }
+}
