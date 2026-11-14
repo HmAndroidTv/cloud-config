@@ -7,6 +7,10 @@
     "name": "HMTV商城.apk",
     "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/HMTV_Mall.apk"
   },
+    {
+    "name": "抖音.apk",
+    "url": "hhttps://github.com/HmAndroidTv/cloud-config/raw/refs/heads/main/apk/myDV-2.3.45.apk"
+  },
   {
     "name": "IPTV (请勿删除内置IPTV，否则账号会丢失).apk",
     "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/IPTV_4.8.23.apk"
