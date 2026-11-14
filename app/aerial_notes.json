@@ -3,14 +3,20 @@
     {
       "v": "1.97",
       "zh": [
-        "内置专享硬件设备白名单鉴权保护",
-        "支持保存与恢复桌面布局，新安装应用自动分类至「未归类」文件夹",
-        "优化 tvOS 风格 Wi-Fi 弹窗体验，支持大时钟与 5 天天气预报卡片"
+        "应用更名为「HMTV桌面启动器」，守护服务更名为「HMTV 桌面守护」",
+        "内置锁定官方默认布局（涵盖影视、游戏、工具、娱乐、系统应用），保护不可删除",
+        "预设文件夹名称增加「娱乐」分类",
+        "优化 Wi-Fi 连接：密码默认明文显示、遥控器按「下」直达连接按钮、异步稳定握手",
+        "默认屏幕保护程序类型设置为「航拍」",
+        "支持特权系统级部署（/system/priv-app/），防止被用户卸载"
       ],
       "en": [
-        "Built-in device whitelist protection",
-        "Support desktop layout backup and restore with uncategorized folder",
-        "Optimized tvOS Wi-Fi popup, large clock and 5-day weather widgets"
+        "Renamed app to 'HMTV桌面启动器' (HMTV Launcher)",
+        "Built-in official locked default layout (Movies, Games, Tools, Entertainment, System)",
+        "Added 'Entertainment' to folder name presets",
+        "Optimized Wi-Fi: plain text password by default, D-pad down directly focuses Connect, async connection",
+        "Default screensaver set to Aerial",
+        "Support privileged system app deployment (/system/priv-app/) to prevent uninstallation"
       ]
     }
   ]
