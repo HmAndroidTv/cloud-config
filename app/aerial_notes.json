@@ -1,6 +1,27 @@
 {
   "releases": [
     {
+      "v": "2.02",
+      "zh": [
+        "控制中心新增「一键极速释放内存」，实时掌握可用内存并秒速清理后台",
+        "控制中心新增「实时网速测速与网络诊断」，实时测算下载带宽、延迟与 4K 播放评级",
+        "控制中心新增「开机直达指定应用」，开机自动拉起指定 App，按 Home 键随时回桌面",
+        "控制中心新增「遥控器快捷按键自定义」，支持数字键 0-9、四色键一键直达 App",
+        "商城安装包生命周期管理：安装完成即刻清理 APK，进入商城自动删除过期历史安装包",
+        "自定义布局备份增加 10 个安全上限保护与超额友好提醒，防止卡顿与存储膨胀",
+        "优化首页公告走马灯：加宽胶囊并消除停顿感，实现从头到尾无缝连贯匀速滚动"
+      ],
+      "en": [
+        "Added Memory Boost to Control Center for instant background cleanup",
+        "Added Network Speed Test & Diagnostics with real-time bandwidth and latency",
+        "Added Boot App setting to launch designated app directly on startup",
+        "Added Remote Key Customization for 0-9 and color shortcut keys",
+        "App Store APK lifecycle management: auto-delete on install and periodic cleanup",
+        "Added 10-backup limit guard for custom layouts with friendly prompts",
+        "Optimized marquee: seamless continuous scrolling without pause and widened capsule"
+      ]
+    },
+    {
       "v": "2.01",
       "zh": [
         "默认壁纸升级为「跟随 App」灵动光晕，根据选中图标自动流动变色",
