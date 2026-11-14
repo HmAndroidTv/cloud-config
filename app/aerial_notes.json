@@ -8,7 +8,8 @@
         "预设文件夹名称增加「娱乐」分类",
         "优化 Wi-Fi 连接：密码默认明文显示、遥控器按「下」直达连接按钮、异步稳定握手",
         "默认屏幕保护程序类型设置为「航拍」",
-        "支持特权系统级部署（/system/priv-app/），防止被用户卸载"
+        "支持特权系统级部署（/system/priv-app/），防止被用户卸载",
+        "每次版本升级后自动解除个性化密码与家长锁定，防止遗忘密码导致锁定"
       ],
       "en": [
         "Renamed app to 'HMTV桌面启动器' (HMTV Launcher)",
@@ -16,7 +17,8 @@
         "Added 'Entertainment' to folder name presets",
         "Optimized Wi-Fi: plain text password by default, D-pad down directly focuses Connect, async connection",
         "Default screensaver set to Aerial",
-        "Support privileged system app deployment (/system/priv-app/) to prevent uninstallation"
+        "Support privileged system app deployment (/system/priv-app/) to prevent uninstallation",
+        "Automatically reset personalization PIN on upgrade to prevent accidental lockout"
       ]
     }
   ]
