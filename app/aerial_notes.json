@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "v": "1.99",
+      "zh": [
+        "优化系统级桌面升级机制，支持直接覆盖更新",
+        "优化文件夹退出退场动画与焦点防抖，提升退出流畅度"
+      ],
+      "en": [
+        "Optimized system launcher update mechanism to support direct package updates",
+        "Smoother folder exit animation and focus debounce"
+      ]
+    },
+    {
       "v": "1.98",
       "zh": [
         "控制中心新增「应用商城」，支持浏览与一键下载云端热门应用",
