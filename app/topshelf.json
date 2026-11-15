@@ -12,6 +12,17 @@
         }
       ]
     },
+    "com.wechat.nytvbox": {
+      "name": "潘多拉影视",
+      "posters": [
+        {
+          "id": "pandora_hero",
+          "title": "潘多拉影视",
+          "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/posters/pandora_hero.webp",
+          "fallbackUrl": "https://cdn.jsdelivr.net/gh/HmAndroidTv/cloud-config@main/posters/pandora_hero.webp"
+        }
+      ]
+    },
     "tv.ifvod.classic": {
       "name": "爱壹帆",
       "posters": [
@@ -34,7 +45,29 @@
         }
       ]
     },
+    "com.liskovsoft.smartyoutubetv2.tv": {
+      "name": "SmartTube",
+      "posters": [
+        {
+          "id": "smarttube_hero",
+          "title": "SmartTube",
+          "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/posters/smarttube_hero.webp",
+          "fallbackUrl": "https://cdn.jsdelivr.net/gh/HmAndroidTv/cloud-config@main/posters/smarttube_hero.webp"
+        }
+      ]
+    },
     "com.google.android.youtube.tv": {
+      "name": "YouTube",
+      "posters": [
+        {
+          "id": "youtube_hero",
+          "title": "YouTube",
+          "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/posters/youtube_hero.webp",
+          "fallbackUrl": "https://cdn.jsdelivr.net/gh/HmAndroidTv/cloud-config@main/posters/youtube_hero.webp"
+        }
+      ]
+    },
+    "com.google.android.youtube": {
       "name": "YouTube",
       "posters": [
         {

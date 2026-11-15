@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "v": "2.04",
+      "zh": [
+        "APK 内置全套影视应用高清 4K 巨幕海报，离线即显、冷启动零等待",
+        "Top Shelf 海报支持别名映射，完美兼容潘多拉影视、爱壹帆、SmartTube 等各类安装版本",
+        "优化海报内存解码开销（RGB_565），大幅提升大屏切焦流畅度"
+      ],
+      "en": [
+        "Bundled offline HD cinematic hero posters directly in APK for instant cold start display",
+        "Enhanced Top Shelf package alias mapping for Pandora, IYF, SmartTube variants",
+        "Optimized poster memory footprint with RGB_565 for smoother D-pad navigation"
+      ]
+    },
+    {
       "v": "2.03",
       "zh": [
         "首行新增「Top Shelf 顶部沉浸式动态大海报」，焦点停留在影视应用时秒变影院级巨幕",
