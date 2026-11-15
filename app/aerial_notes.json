@@ -1,12 +1,26 @@
 {
   "releases": [
     {
+      "v": "2.03",
+      "zh": [
+        "首行新增「Top Shelf 顶部沉浸式动态大海报」，焦点停留在影视应用时秒变影院级巨幕",
+        "个性化设置新增「顶部海报推荐 (Top Shelf)」自主开关",
+        "个性化「未来天气预报」默认调整为不响应，保持大屏桌面干净纯粹",
+        "彻底移除冗余的遥控器数字快捷按键，适配极简电视盒遥控器"
+      ],
+      "en": [
+        "Added Apple TV-style Top Shelf cinematic hero posters when focusing on top row apps",
+        "Added Personalization toggle for Top Shelf posters",
+        "Defaulted multi-day weather forecast to off for a cleaner home layout",
+        "Cleaned up unused remote key remapping for minimal TV remotes"
+      ]
+    },
+    {
       "v": "2.02",
       "zh": [
         "控制中心新增「一键极速释放内存」，实时掌握可用内存并秒速清理后台",
         "控制中心新增「实时网速测速与网络诊断」，实时测算下载带宽、延迟与 4K 播放评级",
         "控制中心新增「开机直达指定应用」，开机自动拉起指定 App，按 Home 键随时回桌面",
-        "控制中心新增「遥控器快捷按键自定义」，支持数字键 0-9、四色键一键直达 App",
         "商城安装包生命周期管理：安装完成即刻清理 APK，进入商城自动删除过期历史安装包",
         "自定义布局备份增加 10 个安全上限保护与超额友好提醒，防止卡顿与存储膨胀",
         "优化首页公告走马灯：加宽胶囊并消除停顿感，实现从头到尾无缝连贯匀速滚动"
@@ -15,7 +29,6 @@
         "Added Memory Boost to Control Center for instant background cleanup",
         "Added Network Speed Test & Diagnostics with real-time bandwidth and latency",
         "Added Boot App setting to launch designated app directly on startup",
-        "Added Remote Key Customization for 0-9 and color shortcut keys",
         "App Store APK lifecycle management: auto-delete on install and periodic cleanup",
         "Added 10-backup limit guard for custom layouts with friendly prompts",
         "Optimized marquee: seamless continuous scrolling without pause and widened capsule"
