@@ -2,127 +2,21 @@
   "prompt_after_days": 30,
   "releases": [
     {
-      "v": "2.05",
+      "v": "2.07",
       "date": "2026-11-15",
       "zh": [
-        "超期未更新自动温和提醒（tvOS 磨砂卡片，支持 7 天免打扰冷却）",
-        "接入轻量化设备在线活跃统计",
-        "合并官方最新 v1.98 底层优化与机型适配",
-        "个性化设置新增系统语言切换功能"
+        "修复冷启动/重启时桌面偶现屡次停止的系统兼容性问题",
+        "修复个性化「主屏幕」设置项向下滚动后遥控器往上移动卡住并跳顶的问题",
+        "全面新增「繁體中文」支援（支援台灣與香港慣用語，並自動識別系統繁體）",
+        "优化设置中心多语言横向平滑滚动体验",
+        "更新日志展示优化：更新时仅呈现最新版本变动说明"
       ],
       "en": [
-        "Added overdue update prompt with tvOS frosted glass dialog and 7-day snooze",
-        "Added lightweight device activity statistics",
-        "Merged upstream v1.98 core optimizations and device adaptations",
-        "Added system language switcher in preferences"
-      ]
-    },
-    {
-      "v": "2.04",
-      "date": "2026-11-15",
-      "zh": [
-        "Top Shelf 巨幕海报全面内置高清离线资源，首帧即显零延迟"
-      ],
-      "en": [
-        "Top Shelf hero posters fully bundled offline for instant rendering"
-      ]
-    },
-    {
-      "v": "2.03",
-      "date": "2026-11-15",
-      "zh": [
-        "个性化「未来天气预报」默认调整为不响应，保持大屏桌面干净纯粹",
-        "彻底移除冗余的遥控器数字快捷按键，适配极简电视盒遥控器"
-      ],
-      "en": [
-        "Defaulted multi-day weather forecast to off for a cleaner home layout",
-        "Cleaned up unused remote key remapping for minimal TV remotes"
-      ]
-    },
-    {
-      "v": "2.02",
-      "zh": [
-        "控制中心新增「一键极速释放内存」，实时掌握可用内存并秒速清理后台",
-        "控制中心新增「实时网速测速与网络诊断」，实时测算下载带宽、延迟与 4K 播放评级",
-        "控制中心新增「开机直达指定应用」，开机自动拉起指定 App，按 Home 键随时回桌面",
-        "商城安装包生命周期管理：安装完成即刻清理 APK，进入商城自动删除过期历史安装包",
-        "自定义布局备份增加 10 个安全上限保护与超额友好提醒，防止卡顿与存储膨胀",
-        "优化首页公告走马灯：加宽胶囊并消除停顿感，实现从头到尾无缝连贯匀速滚动"
-      ],
-      "en": [
-        "Added Memory Boost to Control Center for instant background cleanup",
-        "Added Network Speed Test & Diagnostics with real-time bandwidth and latency",
-        "Added Boot App setting to launch designated app directly on startup",
-        "App Store APK lifecycle management: auto-delete on install and periodic cleanup",
-        "Added 10-backup limit guard for custom layouts with friendly prompts",
-        "Optimized marquee: seamless continuous scrolling without pause and widened capsule"
-      ]
-    },
-    {
-      "v": "2.01",
-      "zh": [
-        "默认壁纸升级为「跟随 App」灵动光晕，根据选中图标自动流动变色",
-        "优化全局文案与品牌标识为 HMTV"
-      ],
-      "en": [
-        "Default wallpaper updated to Follow App ambient glow",
-        "Branding updated to HMTV"
-      ]
-    },
-    {
-      "v": "2.00",
-      "zh": [
-        "更名为「HMTV桌面」，内置统一签名全面支持各端一键覆盖安装",
-        "优化文件夹退出退场动画与焦点防抖，提升退出流畅度"
-      ],
-      "en": [
-        "Renamed to 'HMTV Launcher', unified signing with seamless overwrite install support",
-        "Smoother folder exit animation and focus debounce"
-      ]
-    },
-    {
-      "v": "1.99",
-      "zh": [
-        "优化系统级桌面升级机制，支持直接覆盖更新",
-        "优化文件夹退出退场动画与焦点防抖，提升退出流畅度"
-      ],
-      "en": [
-        "Optimized system launcher update mechanism to support direct package updates",
-        "Smoother folder exit animation and focus debounce"
-      ]
-    },
-    {
-      "v": "1.98",
-      "zh": [
-        "控制中心新增「应用商城」，支持浏览与一键下载云端热门应用",
-        "首页顶部新增滚动公告走马灯，实时获取云端公告与客服微信支持",
-        "个性化设置中支持自主开启或关闭首页滚动公告"
-      ],
-      "en": [
-        "Added App Store to Control Center with one-click app downloads",
-        "Added top scrolling announcement marquee for cloud notices and WeChat support",
-        "Personalization settings option to toggle scrolling marquee on or off"
-      ]
-    },
-    {
-      "v": "1.97",
-      "zh": [
-        "应用更名为「HMTV桌面启动器」，守护服务更名为「HMTV 桌面守护」",
-        "内置锁定官方默认布局（涵盖影视、游戏、工具、娱乐、系统应用），保护不可删除",
-        "预设文件夹名称增加「娱乐」分类",
-        "优化 Wi-Fi 连接：密码默认明文显示、遥控器按「下」直达连接按钮、异步稳定握手",
-        "默认屏幕保护程序类型设置为「航拍」",
-        "支持特权系统级部署（/system/priv-app/），防止被用户卸载",
-        "每次版本升级后自动解除个性化密码与家长锁定，防止遗忘密码导致锁定"
-      ],
-      "en": [
-        "Renamed app to 'HMTV桌面启动器' (HMTV Launcher)",
-        "Built-in official locked default layout (Movies, Games, Tools, Entertainment, System)",
-        "Added 'Entertainment' to folder name presets",
-        "Optimized Wi-Fi: plain text password by default, D-pad down directly focuses Connect, async connection",
-        "Default screensaver set to Aerial",
-        "Support privileged system app deployment (/system/priv-app/) to prevent uninstallation",
-        "Automatically reset personalization PIN on upgrade to prevent accidental lockout"
+        "Fixed direct-boot crash on device restart before unlock",
+        "Fixed D-pad Up navigation trap and jump issue in Home Screen settings",
+        "Added full Traditional Chinese (zh-TW, zh-HK) language support",
+        "Smooth horizontal scrolling for language cards in preferences",
+        "Update dialog now displays changes for the latest release only"
       ]
     }
   ]
