@@ -2,6 +2,32 @@
   "prompt_after_days": 30,
   "releases": [
     {
+      "v": "2.05",
+      "date": "2026-11-15",
+      "zh": [
+        "超期未更新自动温和提醒（tvOS 磨砂卡片，支持 7 天免打扰冷却）",
+        "接入轻量化设备在线活跃统计",
+        "合并官方最新 v1.98 底层优化与机型适配",
+        "个性化设置新增系统语言切换功能"
+      ],
+      "en": [
+        "Added overdue update prompt with tvOS frosted glass dialog and 7-day snooze",
+        "Added lightweight device activity statistics",
+        "Merged upstream v1.98 core optimizations and device adaptations",
+        "Added system language switcher in preferences"
+      ]
+    },
+    {
+      "v": "2.04",
+      "date": "2026-11-15",
+      "zh": [
+        "Top Shelf 巨幕海报全面内置高清离线资源，首帧即显零延迟"
+      ],
+      "en": [
+        "Top Shelf hero posters fully bundled offline for instant rendering"
+      ]
+    },
+    {
       "v": "2.03",
       "date": "2026-11-15",
       "zh": [
