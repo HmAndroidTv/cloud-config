@@ -165,14 +165,34 @@
       "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E5%BD%93%E8%B4%9D%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F.apk"
     },
     "com.jsj.hall.all": {
-      "name": "游戏客厅",
-      "optional": true,
+      "name": "游戏大厅",
+      "optional": false,
       "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E6%B8%B8%E6%88%8F%E5%AE%A2%E5%8E%85.apk"
     },
     "com.dfjy.emugame": {
       "name": "酷咖游戏",
-      "optional": true,
+      "optional": false,
       "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E9%85%B7%E5%92%96%E6%B8%B8%E6%88%8F_1.4.5.apk"
+    },
+    "com.estrongs.android.pop.pro": {
+      "name": "ES文件浏览器",
+      "optional": false,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/ES%E6%96%87%E4%BB%B6%E6%B5%8F%E8%A7%88%E5%99%A8.apk"
+    },
+    "com.shafa.market": {
+      "name": "沙发管家",
+      "optional": false,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E6%B2%99%E5%8F%91%E7%AE%A1%E5%AE%B6.apk"
+    },
+    "com.smarttv.manager": {
+      "name": "电视应用管家",
+      "optional": false,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E7%94%B5%E8%A7%86%E5%BA%94%E7%94%A8%E7%AE%A1%E5%AE%B6.apk"
+    },
+    "tv.tool.netspeedtest": {
+      "name": "网络测速",
+      "optional": false,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E7%BD%91%E7%BB%9C%E6%B5%8B%E9%80%9F.apk"
     },
     "ch.protonvpn.android": {
       "name": "ProtonVPN",
