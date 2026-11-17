@@ -2,6 +2,23 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.12",
+      "date": "2026-11-17",
+      "prompt_after_days": 7,
+      "zh": [
+        "云端标准排版还原：一键从云端拉取标准化排版（5大分类文件夹与第一排常用），自动还原",
+        "智能一键清理：恢复排版时自动安全清理非官方自装应用，严密保护系统组件与电视核心服务",
+        "必备应用按需补齐：支持可选（optional）与核心应用识别，缺失的核心影音自动下载安装",
+        "稳定性与无障碍极速安装助手优化"
+      ],
+      "en": [
+        "Cloud Master Layout Restore: One-click sync from cloud to restore standard 5 categorized folders and dock",
+        "Smart App Cleanup: Automatically and safely clean unauthorized third-party apps while strictly protecting system services",
+        "Essential App Rules: Flexible core vs optional app management with auto-download for missing core apps",
+        "Fast Install Assistant and system stability improvements"
+      ]
+    },
+    {
       "v": "2.11",
       "date": "2026-11-17",
       "prompt_after_days": 7,
