@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-17",
+  "order": [
+    "com.fongmi.android.tv",
+    "org.smarttube.stable",
+    "com.google.android.youtube.tv",
+    "cn.dolit.iptv8k",
+    "com.android.tv.settings",
+    "folder:1",
+    "folder:2",
+    "folder:4",
+    "folder:3",
+    "folder:5",
+    "com.dangbei.tvlauncher"
+  ],
+  "hidden": [
+    "com.dangbei.tvlauncher"
+  ],
+  "folders": [
+    {
+      "id": "1",
+      "name": "影视",
+      "apps": [
+        "tv.ifvod.classic",
+        "com.github.mytv.dv",
+        "com.ss.android.ugc.aweme",
+        "com.duoduo.child.story4tv",
+        "com.xiaodianshi.tv.yst",
+        "com.douyu.xl.douyutv",
+        "com.wechat.nytvbox",
+        "com.plexapp.android",
+        "com.tubitv",
+        "com.syncbak.zeam"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "游戏",
+      "apps": [
+        "com.cocav.tiemu",
+        "com.jsj.hall.all",
+        "com.dfjy.emugame",
+        "com.seleuco.sanguozhi",
+        "com.putaolab.emu2nes.csys",
+        "com.baxa.fctank",
+        "com.seleuco.konglongkuaida",
+        "com.seleuco.powerins",
+        "com.seleuco.snowbros",
+        "com.baxa.leidian3d",
+        "com.putaolab.emu2.hejindantou2",
+        "com.putaolab.emu2nes.hdl2",
+        "com.putaolab.emu2nes.hdl30",
+        "com.baxa.bombermantvTwo",
+        "com.vectorunit.redcmgeplaycn",
+        "com.putaolab.emu2nes.rxzq2",
+        "com.putaolab.emu2.kof2000",
+        "com.putaolab.emu2.kof97",
+        "com.seleuco.yuehuajianshi2",
+        "com.putaolab.emu2nes.rzsg3",
+        "com.putaolab.emu2nes.pt100in1",
+        "com.baxia.shoottd",
+        "com.seleuco.mingjiang",
+        "com.ftaro.metalsoldier.putao",
+        "com.putaolab.emu2nes.sdsxs",
+        "com.baxa.pacmantv",
+        "com.seleuco.sf2ce",
+        "com.dfjy1.gu",
+        "com.dfjy2.gf",
+        "com.dfjy3.gt",
+        "com.dfjy3.qg",
+        "com.dfjy3.qj",
+        "com.dfjy3.tennisgame",
+        "com.waixing.bloodboil"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "工具",
+      "apps": [
+        "com.estrongs.android.pop.pro",
+        "com.shafa.market",
+        "com.dangbei.screencast",
+        "com.smarttv.manager",
+        "tv.tool.netspeedtest",
+        "com.hmtv.mall",
+        "com.overseas.store.appstore",
+        "ch.protonvpn.android",
+        "com.tv.rclear",
+        "com.android.tvremoteime",
+        "com.dangbei.lerad.videoposter",
+        "com.android.chrome",
+        "ccc71.at.free",
+        "com.hideitpro.app.protect",
+        "com.apkpure.aegon",
+        "com.hpplay.happyplay.aw.new",
+        "org.mozilla.tv.firefox",
+        "com.android.vending"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "娱乐",
+      "apps": [
+        "com.origjoy.local.ktv",
+        "com.lehu.mystyle.boxktv",
+        "com.iflytek.aichang.tv",
+        "com.tencent.karaoketv",
+        "com.gotokeep.androidtv",
+        "com.helios.nhwc"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "系统应用",
+      "apps": [
+        "com.droidlogic.appinstall",
+        "com.android.gallery3d",
+        "com.droidlogic.mediacenter",
+        "com.android.superuser",
+        "com.droidlogic.FileBrower",
+        "com.android.deskclock",
+        "com.droidlogic.videoplayer",
+        "com.droidlogic.miracast",
+        "com.google.android.googlequicksearchbox",
+        "com.droidlogic.tv.settings",
+        "com.android.music"
+      ]
+    }
+  ],
+  "app_rules": {
+    "com.fongmi.android.tv": {
+      "name": "潘多拉影视v4",
+      "optional": false,
+      "min_version_code": 600,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E5%BF%85%E8%A3%85%20HM%E6%BD%98%E5%A4%9A%E6%8B%89%E5%BD%B1%E8%A7%86%202026.07%E7%89%88%E6%9C%AC.apk"
+    },
+    "org.smarttube.stable": {
+      "name": "SmartTube",
+      "optional": false,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/smarttube_stable.apk"
+    },
+    "com.google.android.youtube.tv": {
+      "name": "YouTube",
+      "optional": false,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E7%82%B9%E6%92%ADYouTube_2.15.006.apk"
+    },
+    "tv.ifvod.classic": {
+      "name": "爱壹帆",
+      "optional": false,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E7%88%B1%E5%A3%B9%E5%B8%86_2.4.3.apk"
+    },
+    "com.ss.android.ugc.aweme": {
+      "name": "抖音",
+      "optional": false,
+      "url": "https://github.com/HmAndroidTv/cloud-config/raw/refs/heads/main/apk/myDV-2.3.45.apk"
+    },
+    "com.hmtv.mall": {
+      "name": "HMTV应用商城",
+      "optional": false,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/HMTV_Mall.apk"
+    },
+    "com.dangbei.screencast": {
+      "name": "当贝投屏",
+      "optional": true,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E5%BD%93%E8%B4%9D%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F.apk"
+    },
+    "com.jsj.hall.all": {
+      "name": "游戏客厅",
+      "optional": true,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E6%B8%B8%E6%88%8F%E5%AE%A2%E5%8E%85.apk"
+    },
+    "com.dfjy.emugame": {
+      "name": "酷咖游戏",
+      "optional": true,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E9%85%B7%E5%92%96%E6%B8%B8%E6%88%8F_1.4.5.apk"
+    },
+    "ch.protonvpn.android": {
+      "name": "ProtonVPN",
+      "optional": true,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/ProtonVPN.apk"
+    },
+    "com.putaolab.emu2nes.pt100in1": {
+      "name": "100合1",
+      "optional": true,
+      "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/100%E5%90%881_1.6.7.apk"
+    }
+  },
+  "preserve_whitelist": [
+    "cn.dolit.iptv8k",
+    "com.android.tvremoteime",
+    "com.hideitpro.app.protect",
+    "ccc71.at.free",
+    "app.orchard.tv",
+    "app.orchard.tv.guard",
+    "com.google.android.packageinstaller",
+    "com.android.packageinstaller",
+    "com.android.providers.settings",
+    "com.android.tv.settings",
+    "com.android.settings",
+    "com.android.systemui"
+  ]
+}
