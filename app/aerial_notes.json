@@ -1,6 +1,23 @@
 {
-  "prompt_after_days": 0,
+  "prompt_after_days": 7,
   "releases": [
+    {
+      "v": "2.11",
+      "date": "2026-11-17",
+      "prompt_after_days": 7,
+      "zh": [
+        "控制中心一键恢复默认排版：一键还原官方默认桌面排版，并自动检测补齐核心影音软件",
+        "新增极速安装助手：基于无障碍自动快速确认应用安装与权限，免反复按遥控器",
+        "个性化设置优化：新增极速安装助手开/关控制项",
+        "全量多语言更新与系统体验优化"
+      ],
+      "en": [
+        "One-click default layout restore: Reset home screen to official layout in Control Center with auto-install for missing core apps",
+        "Fast Install Assistant: Accessibility-based automatic confirmation of app installation and permissions",
+        "Personalization toggle: Easily enable or disable Fast Install Assistant",
+        "Multilingual improvements and performance tuning"
+      ]
+    },
     {
       "v": "2.10",
       "date": "2026-11-16",
