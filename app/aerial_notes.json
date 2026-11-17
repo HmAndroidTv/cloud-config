@@ -2,22 +2,37 @@
   "prompt_after_days": 0,
   "releases": [
     {
+      "v": "2.10",
+      "date": "2026-11-16",
+      "prompt_after_days": 0,
+      "zh": [
+        "后台音频智能静音：按 Home 键回到桌面时自动接管音频焦点并暂停后台播放，杜绝影视软件偷跑声音",
+        "全新多语言升级：新增韩语（한국어）与日语（日本語）原生支持",
+        "核心影视应用智能配置：恢复默认布局或首次安装时支持一键补齐核心影音",
+        "潘多拉影视智能识别：支持 6.0+ 最新版本检测与无缝更新升级",
+        "IPTV 智能适配：仅在电视已安装时显示在第一排，未安装不打扰提醒"
+      ],
+      "en": [
+        "Smart Background Audio Muting: Returns to Home immediately silence and pause background media players",
+        "Multilingual upgrade: Added native Korean (한국어) and Japanese (日本語) support",
+        "Core streaming apps setup: One-click download/install for core entertainment apps",
+        "Smart Pandora TV detection: Automatic v6.0+ version verification and upgrade",
+        "IPTV smart placement: Preserved in dock when present without missing-app nag"
+      ]
+    },
+    {
       "v": "2.09",
       "date": "2026-11-16",
       "prompt_after_days": 0,
       "zh": [
         "全新多语言升级：新增韩语（한국어）与日语（日本語）原生支持",
         "核心影视应用智能配置：恢复默认布局或首次安装时支持一键补齐核心影音",
-        "潘多拉影视智能识别：支持 6.0+ 最新版本检测与无缝更新升级",
-        "IPTV 智能适配：仅在电视已安装时显示在第一排，未安装不打扰提醒",
-        "性能与交互优化：提升多语言切换流畅度与遥控器焦点响应速度"
+        "潘多拉影视智能识别：支持 6.0+ 最新版本检测与无缝更新升级"
       ],
       "en": [
         "Multilingual upgrade: Added native Korean (한국어) and Japanese (日本語) support",
         "Core streaming apps setup: One-click download/install for core entertainment apps",
-        "Smart Pandora TV detection: Automatic v6.0+ version verification and upgrade",
-        "IPTV smart placement: Preserved in dock when present without missing-app nag",
-        "Performance optimizations: Smoother animations and faster D-pad focus response"
+        "Smart Pandora TV detection: Automatic v6.0+ version verification and upgrade"
       ]
     },
     {
@@ -26,16 +41,12 @@
       "zh": [
         "修复冷启动/重启时桌面偶现屡次停止的系统兼容性问题",
         "修复个性化「主屏幕」设置项向下滚动后遥控器往上移动卡住并跳顶的问题",
-        "全面新增「繁體中文」支援（支援台灣與香港慣用語，並自動識別系統繁體）",
-        "优化设置中心多语言横向平滑滚动体验",
-        "更新日志展示优化：更新时仅呈现最新版本变动说明"
+        "全面新增「繁體中文」支援（支援台灣與香港慣用語，並自動識別系統繁體）"
       ],
       "en": [
         "Fixed direct-boot crash on device restart before unlock",
         "Fixed D-pad Up navigation trap and jump issue in Home Screen settings",
-        "Added full Traditional Chinese (zh-TW, zh-HK) language support",
-        "Smooth horizontal scrolling for language cards in preferences",
-        "Update dialog now displays changes for the latest release only"
+        "Added full Traditional Chinese (zh-TW, zh-HK) language support"
       ]
     }
   ]
