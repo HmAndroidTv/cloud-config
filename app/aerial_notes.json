@@ -1,6 +1,25 @@
 {
-  "prompt_after_days": 30,
+  "prompt_after_days": 0,
   "releases": [
+    {
+      "v": "2.09",
+      "date": "2026-11-16",
+      "prompt_after_days": 0,
+      "zh": [
+        "全新多语言升级：新增韩语（한국어）与日语（日本語）原生支持",
+        "核心影视应用智能配置：恢复默认布局或首次安装时支持一键补齐核心影音",
+        "潘多拉影视智能识别：支持 6.0+ 最新版本检测与无缝更新升级",
+        "IPTV 智能适配：仅在电视已安装时显示在第一排，未安装不打扰提醒",
+        "性能与交互优化：提升多语言切换流畅度与遥控器焦点响应速度"
+      ],
+      "en": [
+        "Multilingual upgrade: Added native Korean (한국어) and Japanese (日本語) support",
+        "Core streaming apps setup: One-click download/install for core entertainment apps",
+        "Smart Pandora TV detection: Automatic v6.0+ version verification and upgrade",
+        "IPTV smart placement: Preserved in dock when present without missing-app nag",
+        "Performance optimizations: Smoother animations and faster D-pad focus response"
+      ]
+    },
     {
       "v": "2.07",
       "date": "2026-11-15",
