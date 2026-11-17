@@ -155,6 +155,11 @@
       "optional": false,
       "url": "https://github.com/HmAndroidTv/cloud-config/raw/refs/heads/main/apk/myDV-2.3.45.apk"
     },
+    "com.github.mytv.dv": {
+      "name": "抖音",
+      "optional": false,
+      "url": "https://github.com/HmAndroidTv/cloud-config/raw/refs/heads/main/apk/myDV-2.3.45.apk"
+    },
     "com.hmtv.mall": {
       "name": "HMTV应用商城",
       "optional": false,
