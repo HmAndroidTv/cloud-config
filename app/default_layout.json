@@ -24,7 +24,6 @@
       "apps": [
         "tv.ifvod.classic",
         "com.github.mytv.dv",
-        "com.ss.android.ugc.aweme",
         "com.duoduo.child.story4tv",
         "com.xiaodianshi.tv.yst",
         "com.douyu.xl.douyutv",
@@ -149,11 +148,6 @@
       "name": "爱壹帆",
       "optional": false,
       "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E7%88%B1%E5%A3%B9%E5%B8%86_2.4.3.apk"
-    },
-    "com.ss.android.ugc.aweme": {
-      "name": "抖音",
-      "optional": false,
-      "url": "https://github.com/HmAndroidTv/cloud-config/raw/refs/heads/main/apk/myDV-2.3.45.apk"
     },
     "com.github.mytv.dv": {
       "name": "抖音",
