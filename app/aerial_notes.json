@@ -2,6 +2,25 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.14",
+      "date": "2026-11-18",
+      "prompt_after_days": 0,
+      "zh": [
+        "控制中心纵向滚动支持：主面板开启平滑纵向滚动，适配各类电视屏幕，选项全部完整可见",
+        "恢复默认排版优化：位置上调至系统维护区域（一键授权下方），排版一目了然更易操作",
+        "全新 Wi-Fi 体验升级：支持纯英文键盘直接输入，自动聚焦输入框，连接更稳定便捷",
+        "首次使用向导：新机或恢复出厂后，智能检测并提示一键初始化官方排版与必备影视应用",
+        "Root 智能静默授权与 AOT Speed 机器码优化：全速编译优化大幅提升电视流畅度"
+      ],
+      "en": [
+        "Control Center Scrolling: Added smooth vertical scrolling to the main panel, ensuring all options are fully visible on any screen",
+        "Reset Layout Optimization: Moved 'Reset to Default Layout' to system maintenance section right under Permissions",
+        "Wi-Fi Connection Upgrades: Added pure English keyboard mode, auto-focus password input, and improved connection stability",
+        "First-Time Setup Guide: Automatically prompts to initialize standard official layout and essential media apps",
+        "Root Silent Permissions & AOT Speed Optimization: One-click optimization for lightning-fast TV performance"
+      ]
+    },
+    {
       "v": "2.13",
       "date": "2026-11-18",
       "prompt_after_days": 0,
