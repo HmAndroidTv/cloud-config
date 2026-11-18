@@ -2,6 +2,23 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.13",
+      "date": "2026-11-18",
+      "prompt_after_days": 0,
+      "zh": [
+        "全新 Wi-Fi 体验升级：支持纯英文键盘直接输入，自动聚焦输入框，连接更稳定便捷",
+        "首次使用向导：新机或恢复出厂后，智能检测并提示一键初始化官方排版与必备影视应用",
+        "Root 智能静默授权：Root 设备自动开启无障碍极速安装助手，并支持一键静默授予全部应用权限",
+        "AOT Speed 极致优化：控制中心新增一键全速机器码编译优化，大幅提升电视流畅度与冷启动速度"
+      ],
+      "en": [
+        "Wi-Fi Connection Upgrades: Added pure English keyboard mode, auto-focus password input, and improved connection stability",
+        "First-Time Setup Guide: Automatically prompts to initialize standard official layout and essential media apps",
+        "Smart Root Permissions: Auto-enables Accessibility Assistant on rooted devices and grants all app permissions in one click",
+        "AOT Speed Machine Code Optimization: Added one-click AOT Speed optimization in Control Center for lightning-fast performance"
+      ]
+    },
+    {
       "v": "2.12",
       "date": "2026-11-17",
       "prompt_after_days": 7,
