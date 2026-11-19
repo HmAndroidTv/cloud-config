@@ -161,7 +161,7 @@
     },
     "com.dangbei.screencast": {
       "name": "当贝投屏",
-      "optional": true,
+      "optional": false,
       "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E5%BD%93%E8%B4%9D%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E6%8A%95%E5%B1%8F.apk"
     },
     "com.jsj.hall.all": {
@@ -196,7 +196,7 @@
     },
     "ch.protonvpn.android": {
       "name": "ProtonVPN",
-      "optional": true,
+      "optional": false,
       "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/ProtonVPN.apk"
     },
     "com.putaolab.emu2nes.pt100in1": {
