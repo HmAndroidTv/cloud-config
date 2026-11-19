@@ -2,6 +2,21 @@
   "prompt_after_days": 14,
   "releases": [
     {
+      "v": "2.17",
+      "date": "2026-11-19",
+      "prompt_after_days": 14,
+      "zh": [
+        "新增温控降温与硬件防护：实时监测电视盒 SoC 温度，过热时一键降温，防止 Wi-Fi 芯片与主板元器件烧毁",
+        "Wi-Fi 射频功耗智能节流：降温时开启 Wi-Fi 扫描节流并切断后台流媒体与 PCDN 偷跑，大幅降低主板发热",
+        "动态温控调频：过热状态下自动调度 CPU 降温降频，保障外贸盒子长期稳定运行不烧机"
+      ],
+      "en": [
+        "Thermal Cooldown & Hardware Protection: Real-time SoC temperature monitoring with one-click cooldown to prevent Wi-Fi and hardware burnout",
+        "Wi-Fi RF & Stream Throttling: Throttles Wi-Fi scanning and cuts off leaking media/PCDN streams to reduce continuous heating",
+        "Dynamic CPU Governor Cooldown: Automatically relaxes CPU frequencies under high temperatures to ensure hardware longevity"
+      ]
+    },
+    {
       "v": "2.16",
       "date": "2026-11-19",
       "prompt_after_days": 14,
