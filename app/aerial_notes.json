@@ -2,6 +2,21 @@
   "prompt_after_days": 14,
   "releases": [
     {
+      "v": "2.16",
+      "date": "2026-11-19",
+      "prompt_after_days": 14,
+      "zh": [
+        "默认语言设为简体中文：新机装机与未设置语言的设备直接默认简体中文显示，告别英文界面",
+        "新增一键恢复 IPTV：控制中心底部新增恢复功能，自动灌入黄金授权与频道库，秒级恢复",
+        "IPTV 自动下载安装闭环：电视若未安装 IPTV，自动静默下载官方安装包、静默安装并恢复授权"
+      ],
+      "en": [
+        "Default to Simplified Chinese: Fresh installs and unset devices default to Simplified Chinese",
+        "One-Click Restore IPTV: Restore golden account license and standard channel data from Control Center",
+        "Automated Download & Install: If IPTV is not installed, automatically downloads, installs, and activates it"
+      ]
+    },
+    {
       "v": "2.15",
       "date": "2026-11-18",
       "prompt_after_days": 14,
