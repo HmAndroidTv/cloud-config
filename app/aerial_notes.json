@@ -2,6 +2,21 @@
   "prompt_after_days": 14,
   "releases": [
     {
+      "v": "2.18",
+      "date": "2026-11-19",
+      "prompt_after_days": 14,
+      "zh": [
+        "后台全自动温控防烧守护：开机即全自动开启巡检，每 5 分钟静默检测，过热自动触发降温与调频",
+        "前台播放绝对保护：用户正在全屏看电视时，严禁杀前台应用，CPU 采用 ondemand 动态按需调频，4K 60帧丝滑不卡顿",
+        "闲置挂机深度降温：桌面与屏保闲置时执行深度散热，彻底杜绝长时间开机烧毁板载 Wi-Fi 芯片"
+      ],
+      "en": [
+        "Automatic Thermal Guard: Enabled by default, silently polls temperature every 5 minutes and auto-cooldowns on overheating",
+        "Foreground Playback Protection: Never interrupts active video; uses dynamic ondemand scaling to guarantee smooth 4K 60fps",
+        "Idle Deep Cooldown: Actively cools down during launcher idle and screensaver to prevent board & Wi-Fi module burnout"
+      ]
+    },
+    {
       "v": "2.17",
       "date": "2026-11-19",
       "prompt_after_days": 14,
