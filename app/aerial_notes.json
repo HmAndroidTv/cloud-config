@@ -2,6 +2,21 @@
   "prompt_after_days": 14,
   "releases": [
     {
+      "v": "2.19",
+      "date": "2026-11-19",
+      "prompt_after_days": 14,
+      "zh": [
+        "新增一键关闭谷歌保护：彻底关闭底层安装包验证与扫描阻止，消除“有害应用已阻止”弹窗，同时保留 Play 商店正常使用",
+        "恢复默认排版联动优化：点击恢复默认排版时，自动静默执行一键关闭谷歌保护与全套敏感权限授权",
+        "核心必备应用更新：当贝投屏与 ProtonVPN 设为出厂必备应用，保障投屏与网络连接体验"
+      ],
+      "en": [
+        "One-Click Disable Play Protect: Completely disables package verification & blocking popups while keeping Google Play Store fully functional",
+        "Auto-Optimization on Restore: Restoring default layout now automatically disables Play Protect and grants all permissions in one pass",
+        "Updated Essential Apps: Screencast and ProtonVPN are now standard apps to guarantee seamless casting and connectivity"
+      ]
+    },
+    {
       "v": "2.18",
       "date": "2026-11-19",
       "prompt_after_days": 14,
