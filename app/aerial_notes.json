@@ -9,13 +9,15 @@
         "新增一键关闭谷歌保护：彻底关闭底层安装包验证与扫描阻止，消除“有害应用已阻止”弹窗，同时保留 Play 商店正常使用",
         "恢复默认排版联动优化：点击恢复默认排版时，自动静默执行一键关闭谷歌保护与全套敏感权限授权",
         "核心必备应用更新：当贝投屏与 ProtonVPN 设为出厂必备应用，保障投屏与网络连接体验",
-        "精准在线设备统计：适配 GA4 网页数据流 Measurement Protocol，毫秒级上报心跳与活跃会话，免去 GMS 依赖"
+        "精准在线设备统计：适配 GA4 网页数据流 Measurement Protocol，毫秒级上报心跳与活跃会话，免去 GMS 依赖",
+        "IPTV 维护暗门防护：恢复功能转为安全暗门（连按 5 次版本号呼出），彻底杜绝其他电视盒误触覆盖数据与账号挤号风险"
       ],
       "en": [
         "One-Click Disable Play Protect: Completely disables package verification & blocking popups while keeping Google Play Store fully functional",
         "Auto-Optimization on Restore: Restoring default layout now automatically disables Play Protect and grants all permissions in one pass",
         "Updated Essential Apps: Screencast and ProtonVPN are now standard apps to guarantee seamless casting and connectivity",
-        "Accurate Realtime Box Tracking: Optimized GA4 Web Measurement Protocol for accurate realtime device stats without GMS bloat"
+        "Accurate Realtime Box Tracking: Optimized GA4 Web Measurement Protocol for accurate realtime device stats without GMS bloat",
+        "IPTV Maintenance Security Door: Protected IPTV restore behind a 5-click version trigger to prevent data overwrite and license conflicts on other devices"
       ]
     },
     {
