@@ -2,6 +2,21 @@
   "prompt_after_days": 14,
   "releases": [
     {
+      "v": "2.15",
+      "date": "2026-11-18",
+      "prompt_after_days": 14,
+      "zh": [
+        "新增一键垃圾清理：深度扫描清理第三方应用缓存、系统崩溃日志与残留安装包，释放存储空间",
+        "智能安全白名单：严格保护 IPTV 等关键电视软件与桌面核心排版，不清除账号与登录状态",
+        "极简清理确认与即时反馈：清理前优雅弹窗确认，清理后实时提示释放的存储空间大小"
+      ],
+      "en": [
+        "One-Click Junk Clean: Deep scan and clean third-party app caches, crash logs, and residual APK files to free up storage",
+        "Intelligent Safety Whitelist: Strictly protects IPTV and launcher settings to preserve logins and preferences",
+        "Clean Confirmation & Feedback: Minimalist glass confirmation dialog with instant feedback on freed storage space"
+      ]
+    },
+    {
       "v": "2.14",
       "date": "2026-11-18",
       "prompt_after_days": 14,
