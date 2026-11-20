@@ -2,6 +2,25 @@
   "prompt_after_days": 14,
   "releases": [
     {
+      "v": "2.21",
+      "date": "2026-11-20",
+      "prompt_after_days": 14,
+      "zh": [
+        "新增网络极速优化与修复：一键扩增千兆 TCP 接收与发送缓冲、开启快速连接，跑满 4K 宽带",
+        "彻底解决 Wi-Fi 假死无网问题：自动禁用系统级 Captive Portal 与私密 DNS 阻断，锁定 Wi-Fi 绝不休眠",
+        "网卡收发队列与硬件复位：刷新 ARP 与路由死锁缓存，防网卡节电休眠挂死，断网自动静默自愈",
+        "控制中心与测速诊断双入口：随时一键提速，恢复默认排版时自动联动执行网络底层提速",
+        "后台轻量看门狗：5 分钟静默探针，遇到无网假死自动触发重连自愈，告别拔电源重启"
+      ],
+      "en": [
+        "Network Boost & Deep Repair: Enlarges TCP socket buffers for 4K streaming and high-speed gigabit throughput",
+        "Wi-Fi Zombie State Resolver: Disables blocking Captive Portal probes & Private DNS, prevents Wi-Fi sleep hanging",
+        "Hardware Transceiver Reset & ARP Flush: Refreshes stale ARP tables and route caches, disables 802.11 power save bugs",
+        "Integrated Control Center & Speed Test Access: One-click boost directly from Control Center or Speed Test page",
+        "Background Self-Healing Watchdog: 5-minute silent probe auto-revives stalled Wi-Fi chips without unplugging power"
+      ]
+    },
+    {
       "v": "2.20",
       "date": "2026-11-19",
       "prompt_after_days": 14,
