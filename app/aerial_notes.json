@@ -2,6 +2,25 @@
   "prompt_after_days": 14,
   "releases": [
     {
+      "v": "2.22",
+      "date": "2026-11-20",
+      "prompt_after_days": 14,
+      "zh": [
+        "新增一键全面优化：一键自动化完成系统深度瘦身、千兆网络加速、批量敏感授权、关闭谷歌保护、恢复默认排版与全速编译",
+        "流媒体与闪存内核深度调优：关闭空闲慢启动与闪存多余中断，开启 MTU 智能探测，彻底根治视频切片卡顿与丢包",
+        "退回主页智能自动关闭应用：支持立即、1分钟、3分钟自动清理，后台守护带三重安全校验，前台播放绝对豁免不杀",
+        "电源控制增强：控制中心新增关机、重启、恢复官方、重启至 Recovery 及电视原生设置入口，支持二次确认与倒计时",
+        "默认屏保更迭为照片模式：大幅降低芯片负载与解码器发热，待机运行更凉爽稳定"
+      ],
+      "en": [
+        "One-Click Master Optimization: Automatically runs deep cache cleaning, gigabit network boost, batch permissions, Google Protect disabling, default layout reset, and AOT speed compilation",
+        "Kernel & Streaming Deep Tuning: Disables TCP slow start after idle and disk stats overhead, enables MTU probing to eliminate video segment buffering",
+        "Smart Background App Auto-Close: Auto-terminates idle background apps (Immediately, 1m, 3m) with triple-layer foreground protection",
+        "Power Menu Enhancements: Direct access to Power Off, Reboot, Stock TV Launcher, Recovery Mode, and Native TV Settings with safe confirmation dialogs",
+        "Photo Screensaver by Default: Significantly reduces VPU hardware decoding strain and thermal dissipation during idle screensaver"
+      ]
+    },
+    {
       "v": "2.21",
       "date": "2026-11-20",
       "prompt_after_days": 14,
