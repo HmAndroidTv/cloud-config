@@ -2,6 +2,23 @@
   "prompt_after_days": 14,
   "releases": [
     {
+      "v": "2.24",
+      "date": "2026-11-21",
+      "prompt_after_days": 14,
+      "zh": [
+        "全新新手交互导览教程：首次开机或随时从控制中心启动，智能高亮引导核心影视、直播、YouTube及系统设置",
+        "智能视口联动与高亮动画：导览时自动平滑滚动并高亮桌面目标应用，搭配极简毛玻璃卡片与遥控器指引",
+        "控制中心支持随时重温导览：控制中心快捷开启，可选择下次开机启动，指引完成后自动关闭不打扰",
+        "全语言本地化支持与性能细节体验优化"
+      ],
+      "en": [
+        "Interactive Onboarding Tour: Launch on first boot or from Control Center to guide through movies, IPTV, YouTube, and Settings",
+        "Smart Viewport & Tile Highlight: Automatically scrolls to and highlights target apps with frosted glass guide card",
+        "Control Center Quick Tour: Revisit the tour anytime, or schedule for next boot with auto-dismiss after completion",
+        "Full Multilingual Support: Updated localization across all supported languages with performance enhancements"
+      ]
+    },
+    {
       "v": "2.23",
       "date": "2026-11-20",
       "prompt_after_days": 14,
