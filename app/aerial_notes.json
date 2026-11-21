@@ -2,6 +2,23 @@
   "prompt_after_days": 14,
   "releases": [
     {
+      "v": "2.23",
+      "date": "2026-11-20",
+      "prompt_after_days": 14,
+      "zh": [
+        "控制中心新增 HDMI-CEC 设备联动一键控制：彻底解决由于系统 CEC 唤醒机制导致处于 HDMI 2 的盒子抢占正在观看其他 HDMI 信号源的严重问题",
+        "一键全面优化自动彻底关闭 HDMI-CEC：全流程第 3 步自动静默关闭并锁定 HDMI-CEC，彻底杜绝外接设备信号源抢占",
+        "一键全面优化自动锁定默认桌面：全流程第 4 步自动将 HMTV 设为系统默认桌面，开机与遥控器 Home 键稳定锁定",
+        "退回主页应用后台清理深度优化：全面重构为异步后台协程并发，移除破坏性页缓存冲刷，消除退回桌面时的瞬时卡顿与掉帧"
+      ],
+      "en": [
+        "Control Center HDMI-CEC Toggle: One-click disable to prevent the box from auto-waking and hijacking TV input signals on other HDMI ports",
+        "Master Boost Auto-Disables CEC: Step 3 of Master Optimization automatically turns off and locks HDMI-CEC to prevent input grabbing",
+        "Master Boost Auto-Locks Default Home: Step 4 automatically locks HMTV as the system default home activity via system package manager",
+        "Smooth Background App Auto-Close: Refactored to asynchronous coroutines and eliminated drop_caches to ensure 60fps smooth return to Home"
+      ]
+    },
+    {
       "v": "2.22",
       "date": "2026-11-20",
       "prompt_after_days": 14,
