@@ -2,6 +2,29 @@
   "prompt_after_days": 0,
   "releases": [
     {
+      "v": "2.27",
+      "date": "2026-11-22",
+      "prompt_after_days": 0,
+      "zh": [
+        "一键全面优化升级：新增「清理非官方应用」可选项（默认推荐勾选，取消勾选将保留所有现有第三方应用并归入未分类），并支持首次安装时智能引导全面初始化",
+        "使用教程开机启动项优化：教程最后一步「每次开机都显示此教程」默认保持未勾选，杜绝开机打扰，支持随时手动按需开启",
+        "移除常驻锁保障在线平滑升级：优化核心服务架构，彻底解决系统包管理器因常驻标记拦截在线更新与安装覆盖的问题，升级更顺畅",
+        "首帧瞬时快照秒开：基于本地闪存快照实现首帧磁贴毫秒级秒开，彻底消除冷启动与重新唤醒时的空白延迟",
+        "系统级核心常驻与防卸载保护：深度集成 Root 提权写入 /system/priv-app，享有系统特权与专属保活机制",
+        "应用名称自定义与遥控快捷键深度映射：长按菜单支持自定义重命名、专属遥控按键任意直达或彻底禁用",
+        "晶晨 Amlogic 芯片按键响应极速优化：智能消除遥控按键防抖延迟，遥控操作更灵敏顺滑"
+      ],
+      "en": [
+        "Master Optimization Enhancement: Added option to clean or keep non-official apps (uncheck to keep apps in Uncategorized folder), with smart first-install setup prompt",
+        "Tutorial Boot Option Refined: 'Show tutorial on boot' is now unchecked by default to prevent unwanted popups on startup",
+        "Seamless Package Updates: Removed restrictive persistent flag to allow smooth in-app OTA and manual apk updates without package installer lock",
+        "Instant First-Frame Cache: Loads leading home tiles from instant flash snapshot, eliminating blank dock delay on cold start",
+        "System Core App & Background Protection: Integrated root auto-promotion to /system/priv-app with system-level privileges",
+        "Custom App Renaming & Remote Key Mapping: Long-press menu supports custom renaming and dedicated remote shortcut binding",
+        "Amlogic Chip Remote Response Boost: Snappy remote keypress response with optimized debounce filters"
+      ]
+    },
+    {
       "v": "2.26",
       "date": "2026-11-22",
       "prompt_after_days": 0,
