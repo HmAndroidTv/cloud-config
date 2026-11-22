@@ -2,6 +2,25 @@
   "prompt_after_days": 14,
   "releases": [
     {
+      "v": "2.25",
+      "date": "2026-11-22",
+      "prompt_after_days": 14,
+      "zh": [
+        "应用名称自定义：长按应用菜单可随时自定义显示名称（支持高达24字符），并可一键恢复默认名称",
+        "遥控器快捷按键深度映射：支持直接拦截并录制遥控器专属按键（YouTube/Disney+/APPS等），绑定直达任意应用或彻底屏蔽禁用",
+        "晶晨 Amlogic 芯片按键响应极速优化：智能消除遥控按键防抖延迟，遥控操作更灵敏顺滑",
+        "新手导览教程全面升级：新增遥控器快捷键图文指引与技巧、支持上下步自由切换及开机启动自主选项",
+        "壁纸缩略图动态内存池优化：基于 LruCache 智能管理画廊缓存，彻底杜绝老旧电视内存溢出风险"
+      ],
+      "en": [
+        "Custom App Renaming: Long press any app to edit its title (up to 24 chars) or reset back to default",
+        "Remote Shortcut Key Mapping: Intercept & map dedicated remote buttons (YouTube, APPS, etc.) to any app or block them",
+        "Amlogic Chip Remote Response Boost: Optimizes remote debounce delay & event queues for snappy navigation",
+        "Upgraded Onboarding Tour: Added visual remote shortcut guides, bidirectional navigation, and boot launch toggle",
+        "Wallpaper LruCache Memory Optimization: Dynamic thumbnail cache pool prevents OOM crashes on low-RAM TVs"
+      ]
+    },
+    {
       "v": "2.24",
       "date": "2026-11-21",
       "prompt_after_days": 14,
