@@ -1,6 +1,27 @@
 {
-  "prompt_after_days": 14,
+  "prompt_after_days": 0,
   "releases": [
+    {
+      "v": "2.26",
+      "date": "2026-11-22",
+      "prompt_after_days": 0,
+      "zh": [
+        "使用教程引导优化：遥控器快捷指南与新手引导复选框视觉明确化（默认空心未勾选状态，不打扰开机）",
+        "首帧瞬时快照秒开：基于本地闪存快照实现首帧磁贴毫秒级秒开，彻底消除冷启动与重新唤醒时的空白延迟",
+        "系统级核心常驻与防杀保护：深度集成 Root 提权写入 /system/priv-app，激活原生 persistent 保活机制；一键全面优化自动检测并提升系统级",
+        "应用名称自定义与遥控快捷键深度映射：长按菜单支持自定义重命名、专属遥控按键任意直达或彻底禁用",
+        "晶晨 Amlogic 芯片按键响应极速优化：智能消除遥控按键防抖延迟，遥控操作更灵敏顺滑",
+        "壁纸缩略图动态内存池优化：基于 LruCache 智能管理画廊缓存，彻底杜绝老旧电视内存溢出风险"
+      ],
+      "en": [
+        "Onboarding Tutorial Polish: Refined remote shortcut guide with hollow unchecked toggle box by default to avoid intrusive popups",
+        "Instant First-Frame Cache: Loads leading home tiles from instant flash snapshot, eliminating blank dock delay on cold start",
+        "System Core App & Background Persistence: Integrated root auto-promotion to /system/priv-app with native persistent guard; Master Optimization auto-promotes to system app",
+        "Custom App Renaming & Remote Key Mapping: Long-press menu supports custom renaming and dedicated remote shortcut binding",
+        "Amlogic Chip Remote Response Boost: Snappy remote keypress response with optimized debounce filters",
+        "Wallpaper LruCache Memory Optimization: Dynamic thumbnail cache pool prevents OOM crashes on low-RAM TVs"
+      ]
+    },
     {
       "v": "2.25",
       "date": "2026-11-22",
