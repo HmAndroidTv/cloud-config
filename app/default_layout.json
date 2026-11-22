@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17",
+  "updated_at": "2026-11-21",
   "order": [
     "com.fongmi.android.tv",
     "org.smarttube.stable",
-    "com.google.android.youtube.tv",
+    "com.github.mytv.dv",
     "cn.dolit.iptv8k",
-    "com.android.tv.settings",
+    "shortcut:launcher_settings",
     "folder:1",
     "folder:2",
     "folder:4",
@@ -22,8 +22,8 @@
       "id": "1",
       "name": "影视",
       "apps": [
+        "com.google.android.youtube.tv",
         "tv.ifvod.classic",
-        "com.github.mytv.dv",
         "com.duoduo.child.story4tv",
         "com.xiaodianshi.tv.yst",
         "com.douyu.xl.douyutv",
