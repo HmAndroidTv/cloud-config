@@ -123,7 +123,9 @@
         "com.droidlogic.miracast",
         "com.google.android.googlequicksearchbox",
         "com.droidlogic.tv.settings",
-        "com.android.music"
+        "com.android.music",
+        "com.android.tv.settings",
+        "com.android.settings"
       ]
     }
   ],
