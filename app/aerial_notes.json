@@ -2,6 +2,25 @@
   "prompt_after_days": 0,
   "releases": [
     {
+      "v": "2.28",
+      "date": "2026-11-23",
+      "prompt_after_days": 0,
+      "zh": [
+        "首次安装自动化一键优化：消除首次启动旧逻辑冲突，开机稳定后自动唤起「首次使用：一键全面优化」向导",
+        "核心应用补全升级（含抖音/爱壹帆/潘多拉等）：全面支持 HTTP 重定向自动跟随与直链下载，解决抖音等应用下载失败问题",
+        "Root 静默后台安装：具备 Root 权限时自动后台静默安装缺失官方应用，无需遥控器手动逐个确认安装",
+        "排版归位联动：一键优化或恢复默认排版后，新补全应用自动精准归位至预置官方位置，并联动执行 AOT 极速编译",
+        "SmartTube 双包名智能识别：兼容稳定版与经典版包名，避免已安装应用被误判缺失"
+      ],
+      "en": [
+        "First-Install Auto Optimization: Resolved first-launch prompt conflicts, cleanly showing 'First Use: Master Optimization' wizard",
+        "Core Apps Complement & Download Fix (TikTok/Pandora/etc.): Added HTTP redirect following and direct URL support, fixing TikTok download failures",
+        "Root Silent Background Install: Missing core apps install silently in the background when rooted, eliminating manual installer popups",
+        "Layout Auto-Arrangement: Newly installed core apps are automatically arranged to their official layout slots, followed by native AOT speed compilation",
+        "SmartTube Dual Package Recognition: Recognizes both stable and legacy package names seamlessly"
+      ]
+    },
+    {
       "v": "2.27",
       "date": "2026-11-22",
       "prompt_after_days": 0,
