@@ -1,5 +1,5 @@
 {
-  "prompt_after_days": 0,
+  "prompt_after_days": 7,
   "releases": [
     {
       "v": "2.28",
