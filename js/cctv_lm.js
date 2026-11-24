@@ -7,12 +7,12 @@
  * 2. 多维筛选（频道 CCTV-1 ~ CCTV-17、分类、首字母 A-Z）
  * 3. 自动解析栏目最新 100 期完整正片 (mode=0 倒序，兜底 mode=2)
  * 4. 仅播放公开无加密、海外可访问流 (is_protected=0 & is_invalid_copyright=0)
- * 5. 优先公开无加密 850.m3u8，自动回退官方默认流 (parse: 0)
+ * 5. 直出 2000K 超清 H5E HLS，配合 CctvProxy 解密播放 (parse: 0)
  */
 
 const API_BASE = "https://api.cntv.cn";
 const VDN_BASE = "https://vdn.apps.cntv.cn/api/getHttpVideoInfo.do";
-const HLS_BASE = "https://hls.cntv.cdn20.com/asp/hls";
+const HLS_BASE = "https://dh5.cntv.cdn20.com/asp/h5e/hls";
 
 const DEFAULT_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -302,15 +302,16 @@ function fetchColumnEpisodes(topc) {
 
 function checkVideoInfo(guid) {
     if (!guid) return null;
-    const info = httpGetJson(`${VDN_BASE}?pid=${encodeURIComponent(guid)}`);
-    if (!info || info.ack !== "yes") return null;
-    if (String(info.is_protected) === "1" || String(info.is_invalid_copyright) === "1") {
-        return { blocked: true };
+    try {
+        const info = httpGetJson(`${VDN_BASE}?pid=${encodeURIComponent(guid)}`);
+        if (!info || info.ack !== "yes") return null;
+        if (String(info.is_protected) === "1" || String(info.is_invalid_copyright) === "1") {
+            return { blocked: true };
+        }
+        return { blocked: false };
+    } catch (e) {
+        return null;
     }
-    return {
-        blocked: false,
-        hlsUrl: info.hls_url || ""
-    };
 }
 
 function detail(id) {
@@ -339,7 +340,7 @@ function detail(id) {
 
         // 校验最新一期是否海外无加密可播
         const check = checkVideoInfo(eps[0].guid);
-        if (!check || check.blocked) {
+        if (check && check.blocked) {
             return JSON.stringify({ list: [] });
         }
 
@@ -374,35 +375,14 @@ function detail(id) {
     }
 }
 
-function probeM3u8(url) {
-    if (!url) return false;
-    return httpGetText(url).indexOf("#EXTM3U") !== -1;
-}
-
 function play(flag, id, flags) {
     try {
-        const guid = String(id || "").trim();
-        if (!guid) return JSON.stringify({ parse: 0, url: "" });
+        const rawId = String(id || "").trim();
+        if (!rawId) return JSON.stringify({ parse: 0, url: "" });
 
-        const info = checkVideoInfo(guid);
-        if (!info || info.blocked) {
-            return JSON.stringify({ parse: 0, url: "" });
-        }
-
-        // 仅使用央视公开无加密通道（850 为公开无加密最高清晰度 640x360，兜底官方默认流）
-        const candidates = [
-            `${HLS_BASE}/850/0303000a/3/default/${guid}/850.m3u8`,
-            info.hlsUrl
-        ];
-
-        let playUrl = "";
-        for (let i = 0; i < candidates.length; i++) {
-            const u = candidates[i];
-            if (u && probeM3u8(u)) {
-                playUrl = u;
-                break;
-            }
-        }
+        const playUrl = rawId.startsWith("http")
+            ? rawId
+            : `${HLS_BASE}/2000/0303000a/3/default/${rawId}/2000.m3u8`;
 
         return JSON.stringify({
             parse: 0,
