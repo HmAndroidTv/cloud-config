@@ -25,6 +25,51 @@ let allColumnsCache = null;
 let allColumnsCacheTime = 0;
 const CACHE_TTL = 30 * 60 * 1000;
 
+// 隐藏海外版权/加密受限栏目（is_protected=1 / is_invalid_copyright=1）及无正片空栏目
+const HIDDEN_COLUMN_IDS = {
+    // CCTV-5 体育（含国际赛事版权片段，海外受限）
+    "EPGM1387361853688238": 1, // 天下足球
+    "EPGM1387361853688232": 1, // 体坛快讯
+    "EPGM1387361853688233": 1, // 体育新闻
+    "EPGM1387361853688234": 1, // 体育世界
+    "EPGM1387361853688231": 1, // 体坛晨报
+    // CCTV-16 奥林匹克（奥运版权海外受限）
+    "EPGM1634809261472738": 1, // 逐冰追雪
+    "EPGM1634809536535805": 1, // 五环纪事
+    "EPGM1462949870664633": 1, // 北京2022
+    "EPGM1634808804931562": 1, // 艺术里的奥林匹克
+    "EPGM1634810533673110": 1, // 奥秘无穷
+    "EPGM1634810762190161": 1, // 奥林匹克人
+    // 无可播正片的归档/空栏目
+    "EPGM1387361853673133": 1, // 梦想星搭档第一季
+    "EPGM1387361853688244": 1, // 运动空间
+    "EPGM1387361853688248": 1, // 体育星探
+    "EPGM1387361853688243": 1, // 精彩F1
+    "EPGM1387361853688241": 1, // 城市之间
+    "EPGM1387361853688246": 1, // 爆笑体育
+    "EPGM1571631085336616": 1, // 9视频
+    "EPGM1571631176689507": 1, // 活力·源
+    "EPGM1387361853688293": 1, // 寰宇视野
+    "EPGM1571631271228678": 1, // 故事·中国
+    "EPGM1571630750228389": 1, // 全景自然
+    "EPGM1387361853688290": 1, // 特别呈现
+    "EPGM1387361853688291": 1, // 真相
+    "EPGM1453293320641407": 1, // 万象
+    "EPGM1453292976728190": 1, // 自然
+    "EPGM1387361853688289": 1, // 时代
+    "EPGM1387361853688292": 1, // 发现
+    "EPGM1387361853688288": 1  // 人文地理
+};
+
+function isHiddenColumn(doc) {
+    if (!doc) return true;
+    const colId = (doc.column_id || "").trim();
+    if (colId && HIDDEN_COLUMN_IDS[colId]) return true;
+    const ch = (doc.channel_name || "").trim();
+    if (ch.indexOf("CCTV-16") !== -1) return true;
+    return false;
+}
+
 function init(ext) {
     // 爬虫初始化
 }
@@ -209,6 +254,7 @@ function category(tid, pg, filter, extend = {}) {
 
         const list = [];
         for (let i = 0; i < docs.length; i++) {
+            if (isHiddenColumn(docs[i])) continue;
             list.push(mapColumnItem(docs[i]));
         }
 
@@ -379,6 +425,7 @@ function getAllColumns() {
         const data = httpGetJson(url);
         const docs = (data && data.response && data.response.docs) || [];
         for (let i = 0; i < docs.length; i++) {
+            if (isHiddenColumn(docs[i])) continue;
             items.push(docs[i]);
         }
         if (docs.length < 100) break;
