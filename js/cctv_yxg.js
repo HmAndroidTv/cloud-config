@@ -13,7 +13,8 @@
 const API_BASE = "https://api.cntv.cn";
 const VDN_BASE = "https://vdn.apps.cntv.cn/api/getHttpVideoInfo.do";
 const SEARCH_BASE = "https://search.cctv.com/ifsearch.php";
-const HLS_BASE = "https://hls.cntv.cdn20.com/asp/hls";
+const HLS_BASE = "https://dh5.cntv.cdn20.com/asp/h5e/hls";
+const HLS_FALLBACK_BASE = "https://hls.cntv.cdn20.com/asp/hls";
 
 const DEFAULT_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -327,7 +328,8 @@ function checkVideoInfo(guid) {
     }
     return {
         blocked: false,
-        hlsUrl: info.hls_url || ""
+        hlsUrl: info.hls_url || "",
+        h5eUrl: (info.manifest && info.manifest.hls_h5e_url) || ""
     };
 }
 
@@ -429,8 +431,11 @@ function play(flag, id, flags) {
         const candidates = [
             `${HLS_BASE}/2000/0303000a/3/default/${guid}/2000.m3u8`,
             `${HLS_BASE}/1200/0303000a/3/default/${guid}/1200.m3u8`,
+            `${HLS_FALLBACK_BASE}/2000/0303000a/3/default/${guid}/2000.m3u8`,
+            `${HLS_FALLBACK_BASE}/1200/0303000a/3/default/${guid}/1200.m3u8`,
+            info.h5eUrl,
             info.hlsUrl
-        ];
+        ].filter(Boolean);
 
         let playUrl = "";
         for (let i = 0; i < candidates.length; i++) {
