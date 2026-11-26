@@ -1,5 +1,5 @@
 {
-  "versionCode": 632,
+  "versionCode": 630,
   "name": "潘多拉影视v4 (6.32)",
   "url": "https://raw.githubusercontent.com/HmAndroidTv/cloud-config/main/apk/%E5%BF%85%E8%A3%85%20HM%E6%BD%98%E5%A4%9A%E6%8B%89%E5%BD%B1%E8%A7%86%202026.07%E7%89%88%E6%9C%AC.apk",
   "message": "潘多拉影视v4 (6.32) 升级提醒：\n1. 新版本首次启动自动彻底清理旧版残留缓存，同时完整保留观看记录、收藏、个人设置与激活状态，杜绝覆盖升级闪退\n2. 修复多进程初始化冲突、后台缓存维护异常及部分老旧电视盒升级兼容性问题\n3. 优化安装包体积与 2GB 电视盒运行流畅度，全面升级电视端界面与换台体验\n建议立即更新体验！"
