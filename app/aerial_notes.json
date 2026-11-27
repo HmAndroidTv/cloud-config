@@ -2,6 +2,21 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.29",
+      "date": "2026-11-26",
+      "prompt_after_days": 7,
+      "zh": [
+        "彻底解决按 Home 键偶发卡死 10 秒问题：全面移除会锁死系统包管理服务的 dumpsys dexopt 调用，改用本地毫秒级 odex 校验，从播放器返回桌面秒开零卡顿",
+        "新增屏保空闲自动 AOT 巡检编译：进入屏保空闲后自动识别新装或刚升级的软件，带温控保护低优先级静默补齐极速机器码编译，退出屏保即时释放 CPU",
+        "网络守护与红外遥控初始化去重优化：杜绝桌面重建时重复注册网络回调与反复重刷遥控驱动，遥控器响应更稳更快"
+      ],
+      "en": [
+        "Fixed intermittent 10-second Home button freeze: eliminated system-locking dumpsys dexopt calls in favor of instant local odex checks for zero-lag Home return",
+        "Added Screensaver Idle AOT Patrol: automatically detects and low-priority compiles newly installed or updated apps during screensaver idle with thermal guard and instant wakeup abort",
+        "Startup optimizer deduplication: prevented duplicate network callbacks and redundant Amlogic IR remote reloads across Activity recreations"
+      ]
+    },
+    {
       "v": "2.28",
       "date": "2026-11-23",
       "prompt_after_days": 0,
