@@ -2,6 +2,17 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.39",
+      "date": "2026-11-27",
+      "prompt_after_days": 7,
+      "zh": [
+        "全新 Windows 风格居中毛玻璃电源菜单：点击控制中心电源图标后，弹出横排三大图标卡片（待机 / 重启 / 关机），默认焦点停留在「待机」，「关机」带红标视觉区分并保留二次确认防误触，遥控操作更直观顺手"
+      ],
+      "en": [
+        "Redesigned launcher power menu into a centered Windows-style Liquid Glass dialog with three large action cards (Sleep, Restart, Shut Down), defaulting focus to Sleep with a red-accented Shut Down card and confirmation dialogs"
+      ]
+    },
+    {
       "v": "2.38",
       "date": "2026-11-27",
       "prompt_after_days": 7,
