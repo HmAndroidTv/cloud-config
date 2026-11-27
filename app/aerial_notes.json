@@ -2,6 +2,21 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.31",
+      "date": "2026-11-26",
+      "prompt_after_days": 0,
+      "zh": [
+        "修复遥控器 Google Play 与 YouTube 物理键被系统固件强制劫持的问题：当用户在设置中自定义绑定这两个按键（例如绑定到 SmartTube）时，通过晶晨底层遥控驱动自动重映射空闲扫描码，绕过系统强制打开 Play 商店/官方 YouTube 的限制，按键直达所选应用",
+        "统一遥控快捷键扫描码与键值别名识别，改绑或解绑 Google Play / YouTube 键时即时同步生效",
+        "包含 v2.30 全部性能优化：彻底移除后台自动 AOT 编译与按 Home 键偶发卡死问题"
+      ],
+      "en": [
+        "Fixed Google Play and YouTube physical remote buttons being hijacked by Amlogic firmware: dynamically remaps them to unused Linux scancodes via remotecfg when custom-bound in Settings so they launch the user's chosen app (e.g. SmartTube) instead of Google Play Store / YouTube",
+        "Unified remote key alias resolution and instant kernel remap sync on bind/unbind",
+        "Includes all v2.30 performance fixes (removed automatic background AOT compilation and fixed Home button freeze)"
+      ]
+    },
+    {
       "v": "2.30",
       "date": "2026-11-26",
       "prompt_after_days": 0,
