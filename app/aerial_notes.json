@@ -2,6 +2,19 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.37",
+      "date": "2026-11-27",
+      "prompt_after_days": 0,
+      "zh": [
+        "新增「全速编译优化」高负载二次确认弹窗：明确提示需约 3～5 分钟、运行期间 CPU 满载造成短暂卡顿或发热属正常现象，请耐心等待切勿断电",
+        "同步为「一键全面优化」确认弹窗、首次开机引导优化弹窗及全速编译进行中提示补充耐心等待与防断电提醒（全 6 种语言同步）"
+      ],
+      "en": [
+        "Added a confirmation dialog before AOT Speed Optimization explaining it is an intensive 3–5 minute process where temporary lag or warmth is normal and advising not to power off",
+        "Added matching high-load patience notices to Master Optimize, First-Time Setup, and in-progress AOT compilation notifications across all 6 locales"
+      ]
+    },
+    {
       "v": "2.36",
       "date": "2026-11-27",
       "prompt_after_days": 0,
