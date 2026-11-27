@@ -2,6 +2,23 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.36",
+      "date": "2026-11-27",
+      "prompt_after_days": 0,
+      "zh": [
+        "开机网络极速优化提前至开机 5 秒内生效（原需等待 60 秒），一开机播放 4K/海外源即享满血 4MB TCP 缓冲与 Anycast DNS，不再出现开机首分钟卡顿",
+        "新增 Broadcom dhd 底层无线节能关闭（iwpriv wlan0 set_pm 0）与 Wi-Fi 重连后自动保持，彻底消除 Wi-Fi 休眠导致的直播/点播延迟抖动",
+        "一键全面优化新增限制非核心第三方流氓后台自启与唤醒（保护桌面、潘多拉、SmartTube、IPTV 与 App Locker），大幅释放待机内存与 CPU 负载",
+        "优化系统动效缩放（window/transition 0x + animator 0.25x）与精简日志缓冲，并移除开机不必要清缓存，界面切换更快更跟手"
+      ],
+      "en": [
+        "Runs boot network & I/O optimizations within 5 seconds of startup (down from 60s) so first-minute 4K/live playback immediately gets full 4MB TCP buffers and Anycast DNS",
+        "Adds Broadcom dhd hardware Wi-Fi power-save disable (iwpriv wlan0 set_pm 0) with automatic re-apply on Wi-Fi reconnect to eliminate latency spikes",
+        "Restricts non-core third-party background auto-start and wakelocks in Master Optimize (strictly protecting Launcher, PandoraTV, SmartTube, IPTV, and App Locker)",
+        "Tunes UI animation scales (0/0/0.25), compacts logd buffer, and avoids evicting fresh boot page caches for snappier responsiveness"
+      ]
+    },
+    {
       "v": "2.35",
       "date": "2026-11-27",
       "prompt_after_days": 0,
