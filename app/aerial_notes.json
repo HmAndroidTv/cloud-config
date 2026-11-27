@@ -2,6 +2,21 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.30",
+      "date": "2026-11-26",
+      "prompt_after_days": 7,
+      "zh": [
+        "彻底移除所有后台自动全速 AOT 编译任务：杜绝后台多核 dex2oat 满载抢占 CPU 引起的系统卡顿与发热，AOT 极速编译仅在用户手动触发时执行",
+        "彻底消除按 Home 键偶发卡死 10 秒问题：全面移除锁死系统包管理服务的 dumpsys dexopt 调用，从播放器返回桌面秒开零卡顿",
+        "网络守护与红外遥控初始化去重优化：避免桌面重建时重复注册网络回调与重刷遥控驱动，操控更丝滑稳定"
+      ],
+      "en": [
+        "Removed all automatic background AOT compilation tasks: eliminates multi-core dex2oat CPU spikes and UI stutter; AOT compilation now runs strictly on manual user trigger",
+        "Fixed intermittent 10-second Home button freeze by removing system-locking dumpsys dexopt calls",
+        "Deduplicated network watchdog callbacks and Amlogic IR remote reloads across Activity recreations"
+      ]
+    },
+    {
       "v": "2.29",
       "date": "2026-11-26",
       "prompt_after_days": 7,
