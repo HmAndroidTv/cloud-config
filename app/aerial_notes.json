@@ -2,6 +2,21 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.35",
+      "date": "2026-11-27",
+      "prompt_after_days": 0,
+      "zh": [
+        "升级网络极速优化与开机自动调优：新增关闭 Miracast/P2P 无线投屏后台抢信道与停止 miracast_hdcp2 服务，显著减少单射频电视盒 Wi-Fi 间歇掉速",
+        "关闭系统后台全信道 Wi-Fi/BLE 扫描与网络评分通知，并将 Android Wi-Fi TCP 接收缓冲上限扩大至 4MB，防止重连后被系统压回 2MB",
+        "新增现代内核 iw 无线节能关闭回退支持，统一开机优化与控制中心一键修复规则，确保优化效果完全一致"
+      ],
+      "en": [
+        "Upgraded Network Boost & boot optimization: disables Miracast/P2P off-channel interference and stops miracast_hdcp2 to eliminate periodic Wi-Fi throughput drops on single-radio TV boxes",
+        "Disables background full-channel Wi-Fi/BLE scanning and raises Android net.tcp.buffersize.wifi max receive buffer to 4MB so reconnects never clamp TCP buffers back down",
+        "Adds modern iw power_save off fallback and unifies boot and one-click repair network tuning scripts"
+      ]
+    },
+    {
       "v": "2.34",
       "date": "2026-11-27",
       "prompt_after_days": 0,
