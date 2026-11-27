@@ -2,6 +2,29 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.32",
+      "date": "2026-11-27",
+      "prompt_after_days": 0,
+      "zh": [
+        "新增「一键修复潘多拉影视」：控制中心一键全速下载最新版潘多拉影视，自动彻底清空旧数据与缓存后全新静默安装，修复完成后弹窗一键打开",
+        "全新 6 线程并行分段全速下载引擎：大幅提升应用商店、一键优化与潘多拉修复的 APK 下载速度，并支持自动重试与无缝回退",
+        "一键全面优化升级：自动清理潘多拉影视缓存并按云端 update.json 检测升级到最新版，同时自动检测并开启 App Locker 无障碍服务",
+        "全速编译优化提速防卡顿：排除 Google 搜索、GMS、Play 商店、Chrome 等巨型系统包，新增单包超时保护，告别编译卡在 2/82",
+        "全链路保护 App Locker：垃圾清理、内存加速、温控降温与退回主页自动关闭应用均跳过应用锁，不再误清或误杀",
+        "文件夹内按 Home 键手感优化：在文件夹内或从文件夹中打开的 App 按 Home 返回时，焦点稳稳停留在对应文件夹磁贴（第二页），再按一次 Home 才回第一页",
+        "优化引导教程与统计准确性：教程最后一步「每次开机都显示此教程」默认去勾；升级 GA4 统计（记录应用启动与停留时长），并加入硬件指纹防克隆与旧版 client_id 自动重置"
+      ],
+      "en": [
+        "Added One-Click Repair PandoraTV in Control Center: downloads the latest PandoraTV at full speed, performs a clean data reset & silent reinstall, and pops up a quick-launch dialog when done",
+        "Upgraded APK downloader to a 6-thread parallel byte-range engine with buffered flash writes, per-chunk retries, and automatic single-stream fallback",
+        "Enhanced Master One-Click Optimization: clears PandoraTV caches, auto-updates PandoraTV via update.json, and checks/re-enables App Locker accessibility service",
+        "Optimized AOT speed compilation: excludes bloated Google/WebView system packages (QuickSearchBox, GMS, Play Store, Chrome) and adds per-package timeout protection",
+        "Protected App Locker across junk cleanup, memory boost, thermal cooldown, and background auto-close",
+        "Improved folder Home navigation: pressing Home from a folder or a folder-launched app returns focus to that folder's tile (page 2); pressing Home again returns to page 1",
+        "Defaulted tutorial boot toggle to unchecked on the final step; enhanced GA4 app launch & duration analytics with hardware-fingerprint anti-clone and one-time legacy client_id reset"
+      ]
+    },
+    {
       "v": "2.31",
       "date": "2026-11-26",
       "prompt_after_days": 0,
