@@ -2,6 +2,21 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.34",
+      "date": "2026-11-27",
+      "prompt_after_days": 0,
+      "zh": [
+        "全新智能 72°C / 68°C 滞回温控与动态调频：平时保持满血性能不限频，温度 ≥ 72°C 自动柔和限频至 1.5 GHz 降温，降至 ≤ 68°C 自动解锁恢复硬件原生最高频，兼顾凉快与流畅",
+        "统一 CPU 动态调度为更省电凉快的 schedutil，并设置 500 MHz 流畅保底频率，彻底修复高温降温切回 interactive 导致的持续偏热问题，看视频与操作遥控零迟滞",
+        "新装与版本升级自动开启开机新手引导教程（最后一步仍默认不勾选“每次开机都显示”），并自动重置 GA4 设备 client_id，同时兼容 TWRP 换机克隆自动防撞号"
+      ],
+      "en": [
+        "Smart 72°C / 68°C hysteresis thermal guard: keeps full hardware CPU speed during normal use, smoothly caps max frequency to 1.5 GHz at >= 72°C, and automatically unlocks back to native max at <= 68°C",
+        "Unified dynamic schedutil CPU governor with a smooth 500 MHz floor across boot optimization and thermal cooldown, eliminating heat buildup without video or UI stutter",
+        "Automatically enables the onboarding tutorial once and resets GA4 client_id on fresh install, version upgrade, or TWRP clone onto new hardware"
+      ]
+    },
+    {
       "v": "2.32",
       "date": "2026-11-27",
       "prompt_after_days": 0,
