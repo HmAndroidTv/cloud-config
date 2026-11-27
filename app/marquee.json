@@ -2,7 +2,7 @@
   "enabled": true,
   "interval_minutes": 30,
   "messages": {
-    "zh": "潘多拉影视如果打不开的话 请去设置>应用>潘多拉影视>清楚数据, 然后再重新进入APP看看。如有任何其他问题，欢迎添加微信：nytvbox2",
+    "zh": "潘多拉影视如果打不开，请前往 设置 > 应用 > 潘多拉影视 > 清除数据后重新进入（更新最新桌面也可一键修复）。如有其他问题，欢迎添加微信：nytvbox2",
     "en": "Welcome to HMTV Box! For any questions or support, please add WeChat: nytvbox2"
   }
 }
