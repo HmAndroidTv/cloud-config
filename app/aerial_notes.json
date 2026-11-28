@@ -2,6 +2,21 @@
   "prompt_after_days": 7,
   "releases": [
     {
+      "v": "2.41",
+      "date": "2026-11-27",
+      "prompt_after_days": 7,
+      "zh": [
+        "新增屏保深度降温模式：进入航拍/视频屏保时自动降至 100 MHz～1.0 GHz，进入相册/时钟屏保时降至 100～667 MHz，任意按键退出瞬间即刻恢复满血频率，大幅降低待机与屏保温度",
+        "优化照片屏保渲染功耗：保留 2 秒柔和淡入淡出切图过渡，移除画面静止期间每秒 60 帧的持续缩放重绘，屏保期间 CPU/GPU 真正归零休眠，实测温度直降约 12°C",
+        "控制中心打开期间每 2 秒实时刷新一次芯片温度，随时看到最真实的实时散热温度"
+      ],
+      "en": [
+        "Added screensaver deep-cooling mode: lowers CPU scaling to 100 MHz–1.0 GHz for video screensavers and 100–667 MHz for photo/clock screensavers, restoring full speed instantly on wake",
+        "Eliminated continuous 60fps Ken Burns redraws in the photo screensaver (keeping smooth 2s crossfades) for true 0-fps idle cooling (~12°C cooler during screensaver)",
+        "Control Center now refreshes SoC temperature live every 2 seconds while open"
+      ]
+    },
+    {
       "v": "2.40",
       "date": "2026-11-27",
       "prompt_after_days": 0,
